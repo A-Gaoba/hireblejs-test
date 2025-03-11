@@ -521,7 +521,10 @@ export default function AppPage() {
       <header className="border-b border-slate-800 dark:border-slate-700 py-4 bg-white dark:bg-slate-950">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-slate-900 dark:text-white">HireableJS</h1>
+            <h1 className="text-2xl font-bold text-slate-900 dark:text-white">
+              Hireable<span className="text-orange-500">JS</span>
+            </h1>
+
             <div className="flex items-center gap-2">
               <ThemeToggle />
               {cvData && (
