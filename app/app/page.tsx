@@ -521,7 +521,7 @@ export default function AppPage() {
       <header className="border-b border-slate-800 dark:border-slate-700 py-4 bg-white dark:bg-slate-950">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Hireablejs</h1>
+            <h1 className="text-2xl font-bold text-slate-900 dark:text-white">HireableJS</h1>
             <div className="flex items-center gap-2">
               <ThemeToggle />
               {cvData && (
@@ -610,8 +610,8 @@ export default function AppPage() {
                               <div
                                 key={key}
                                 className={`flex items-center justify-between p-3 rounded-md cursor-pointer ${currentCompanyKey === key
-                                    ? "bg-slate-200 dark:bg-slate-800"
-                                    : "bg-slate-100 dark:bg-slate-900 hover:bg-slate-200 dark:hover:bg-slate-800"
+                                  ? "bg-slate-200 dark:bg-slate-800"
+                                  : "bg-slate-100 dark:bg-slate-900 hover:bg-slate-200 dark:hover:bg-slate-800"
                                   }`}
                                 onClick={() => loadSavedCV(key)}
                               >

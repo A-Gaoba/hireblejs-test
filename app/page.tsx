@@ -174,7 +174,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">
-                Why Choose Hireablejs
+                Why Choose HireableJS
               </h2>
               <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
                 Our platform offers unique advantages to help you stand out in your job applications
@@ -301,7 +301,7 @@ export default function Home() {
           </div>
 
           <div className="border-t border-slate-200 dark:border-slate-800 mt-12 pt-8 text-center text-sm text-slate-500 dark:text-slate-400">
-            © 2025 Hireablejs. All rights reserved.
+            © 2025 HireableJS. All rights reserved.
           </div>
         </div>
       </footer>
